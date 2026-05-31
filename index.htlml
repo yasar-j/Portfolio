@@ -1,0 +1,423 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yasar J | Portfolio</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Yasar J | Portfolio">
+    <meta property="og:description" content="AI & Python Developer Portfolio">
+    <meta property="og:url" content="https://yasar-j.github.io">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Devicon -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="particles"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+    <div class="nav-container">
+
+        <div class="logo">YASAR J</div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="yasar_j_resume.pdf"
+           class="resume-btn"
+           download>
+
+           Download Resume
+
+        </a>
+
+    </div>
+
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <h1>AI & Python Developer</h1>
+
+        <p>
+            Computer Science Engineering student passionate about
+            AI, Machine Learning, Computer Vision,
+            Python Development and Full Stack Web Development.
+        </p>
+
+        <div class="cta-buttons">
+
+            <a href="#projects" class="btn btn-primary">
+                Explore Projects
+            </a>
+
+            <a href="#skills" class="btn btn-secondary">
+                View Skills
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+
+    <h2 class="section-title">Technical Skills</h2>
+
+    <div class="skills-grid">
+
+        <!-- Programming -->
+        <div class="skill-category">
+
+            <h3>
+                <i class="fas fa-code"></i>
+                Programming
+            </h3>
+
+            <div class="skill-items">
+
+                <div class="skill-item">
+                    <i class="devicon-python-plain"></i>
+                    <span>Python</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="devicon-c-plain"></i>
+                    <span>C</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="devicon-cplusplus-plain"></i>
+                    <span>C++</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Web -->
+        <div class="skill-category">
+
+            <h3>
+                <i class="fas fa-globe"></i>
+                Web Development
+            </h3>
+
+            <div class="skill-items">
+
+                <div class="skill-item">
+                    <i class="devicon-html5-plain"></i>
+                    <span>HTML</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="devicon-css3-plain"></i>
+                    <span>CSS</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="devicon-javascript-plain"></i>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="devicon-react-original"></i>
+                    <span>React</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- AI -->
+        <div class="skill-category">
+
+            <h3>
+                <i class="fas fa-robot"></i>
+                AI / ML
+            </h3>
+
+            <div class="skill-items">
+
+                <div class="skill-item">
+                    <i class="devicon-opencv-plain"></i>
+                    <span>OpenCV</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="devicon-python-plain"></i>
+                    <span>MediaPipe</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="devicon-python-plain"></i>
+                    <span>Scikit-Learn</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="devicon-python-plain"></i>
+                    <span>NumPy</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-category">
+
+            <h3>
+                <i class="fas fa-tools"></i>
+                Tools
+            </h3>
+
+            <div class="skill-items">
+
+                <div class="skill-item">
+                    <i class="devicon-git-plain"></i>
+                    <span>Git</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="devicon-github-original"></i>
+                    <span>GitHub</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="devicon-django-plain"></i>
+                    <span>Django</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid">
+
+        <div class="project-card">
+
+            <div class="project-content">
+
+                <h3>AI Driver Monitoring System</h3>
+
+                <p>
+                    Advanced AI-based Driver Monitoring System
+                    developed using Python, OpenCV, MediaPipe,
+                    and Machine Learning techniques to detect
+                    drowsiness and unsafe driving behavior.
+                </p>
+
+                <div class="project-tech">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">OpenCV</span>
+                    <span class="tech-tag">MediaPipe</span>
+                    <span class="tech-tag">Machine Learning</span>
+                    <span class="tech-tag">NumPy</span>
+                </div>
+
+                <div class="project-links">
+
+                    <i class="devicon-github-original"></i>
+
+                    <a href="https://github.com/yasar-j/Driver-Monitoring-System-DMS-"
+                       class="project-link"
+                       target="_blank">
+
+                        View Project
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section">
+
+    <h2 class="section-title">Education</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <span class="timeline-date">
+                2022 - Present
+            </span>
+
+            <h3>
+                B.E Computer Science and Engineering
+            </h3>
+
+            <p>
+                Annamalai University
+            </p>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <span class="timeline-date">
+                2022
+            </span>
+
+            <h3>
+                Higher Secondary Education
+            </h3>
+
+            <p>
+                Saraswathi Matric Hr. Sec. School - 86%
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-content">
+
+        <div class="contact-info">
+
+            <h3>Let's Connect</h3>
+
+            <!-- EMAIL -->
+            <div class="contact-item">
+
+                <i class="fas fa-envelope"></i>
+
+                <div>
+
+                    <strong>Email</strong><br>
+
+                    <a href="mailto:yasarjamal1310@gmail.com">
+                        yasarjamal1310@gmail.com
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- LINKEDIN -->
+            <div class="contact-item">
+
+                <i class="devicon-linkedin-plain"></i>
+
+                <div>
+
+                    <strong>LinkedIn</strong><br>
+
+                    <a href="https://www.linkedin.com/in/yasar-jamal-bb7144373"
+                       target="_blank">
+
+                        linkedin.com/in/yasar-jamal-bb7144373
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- GITHUB -->
+            <div class="contact-item">
+
+                <i class="devicon-github-original"></i>
+
+                <div>
+
+                    <strong>GitHub</strong><br>
+
+                    <a href="https://github.com/yasar-j"
+                       target="_blank">
+
+                        github.com/yasar-j
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CONTACT FORM -->
+        <form class="contact-form">
+
+            <input type="text"
+                   placeholder="Your Name"
+                   required>
+
+            <input type="email"
+                   placeholder="Your Email"
+                   required>
+
+            <textarea rows="5"
+                      placeholder="Your Message"
+                      required></textarea>
+
+            <button type="submit"
+                    class="btn btn-primary">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
+
